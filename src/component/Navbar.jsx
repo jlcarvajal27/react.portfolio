@@ -1,5 +1,5 @@
 import coding from "../assets/coding-html-svgrepo-com.svg";
-import resume from "../assets/Jorge's Resume.pdf";
+import resume from "../assets/Resume-new.pdf";
 
 export default function Navbar() {
   return (

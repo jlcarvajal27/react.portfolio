@@ -11,9 +11,9 @@ import bootstrap from "../assets/skills/bootstrap-4-logo-svgrepo-com.svg";
 import css3 from "../assets/skills/css3-svgrepo-com.svg";
 import nextjs from "../assets/skills/nextjs-svgrepo-com.svg";
 import typescript from "../assets/skills/typescript-official-svgrepo-com.svg";
-
 import hr from "../assets/curve-hr.svg";
 import SkillCard from "./SkillCard";
+// import { DataSvg } from "../assets/Data/DataSkillSvg";
 
 export default function Skills() {
   const settings = {
@@ -34,16 +34,16 @@ export default function Skills() {
 
       <div className="mt-4">
         <Slider {...settings}>
-          <SkillCard name="HTML5" img={html} />
-          <SkillCard name="JavaScript" img={javascript} />
-          <SkillCard name="TypeScript" img={typescript} />
           <SkillCard name="React" img={react} />
           <SkillCard name="Next" img={nextjs} />
+          <SkillCard name="JavaScript" img={javascript} />
+          <SkillCard name="TypeScript" img={typescript} />
+          <SkillCard name="Tailwind" img={tailwind} />
+          <SkillCard name="Bootstrap" img={bootstrap} />
           <SkillCard name="Git" img={git} />
           <SkillCard name="Node" img={node} />
           <SkillCard name="Css3" img={css3} />
-          <SkillCard name="Tailwind" img={tailwind} />
-          <SkillCard name="Bootstrap" img={bootstrap} />
+          <SkillCard name="HTML5" img={html} />
         </Slider>
       </div>
       <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />
