@@ -13,7 +13,6 @@ import nextjs from "../assets/skills/nextjs-svgrepo-com.svg";
 import typescript from "../assets/skills/typescript-official-svgrepo-com.svg";
 import hr from "../assets/curve-hr.svg";
 import SkillCard from "./SkillCard";
-// import { DataSvg } from "../assets/Data/DataSkillSvg";
 
 export default function Skills() {
   const settings = {
