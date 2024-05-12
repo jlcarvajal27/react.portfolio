@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function SkillCard({ img, name }) {
   return (
     <div

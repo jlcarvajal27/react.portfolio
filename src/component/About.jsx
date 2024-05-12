@@ -5,7 +5,6 @@ import {
   faInstagram,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
-import hr from "../assets/curve-hr.svg";
 
 export default function About() {
   return (
@@ -31,7 +30,7 @@ export default function About() {
         <div className="flex flex-col w-full mt-8">
           <h1 className="text-xl text-gray-400">Hola, Yo soy</h1>
           <h1 className="text-2xl font-bold">Jorge Luis Carvajal</h1>
-          <p class="text-xl font-bold italic text-gray-300">
+          <p className="text-xl font-bold italic text-gray-300">
             Frontend Development
           </p>
           <p className="text-md font-light text-gray-400 italic">

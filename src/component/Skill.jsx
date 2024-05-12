@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
 import hr from "../assets/curve-hr.svg";
 import SkillCard from "./SkillCard";
 
@@ -31,7 +30,7 @@ export default function Skills() {
           <SkillCard name="Tailwind" img={"skills/tailwind.svg"} />
           <SkillCard name="Bootstrap" img={"skills/bootstrap.svg"} />
           <SkillCard name="Git" img={"skills/git.svg"} />
-          <SkillCard name="Node" img={"skills/node.svg"} />
+          <SkillCard name="Node" img={"skills/nodejs-svgrepo-com.svg"} />
           <SkillCard name="Css3" img={"skills/css3.svg"} />
           <SkillCard name="HTML5" img={"skills/html.svg"} />
         </Slider>
