@@ -14,7 +14,7 @@ export default function Project() {
     {
       title: "Tienda virtual",
       description:
-        "Tienda CB-Shop es una plataforma de comercio electrónico moderna y elegante que ofrece una amplia variedad de cualquier tipo ropa para mujeres, hombres y niños. Desarrollada utilizando la potente tecnología de Next.js, esta tienda virtual proporciona una experiencia de compra fluida y atractiva para los usuarios.",
+        "Tienda CB-Shop es una plataforma de comercio electrónico  que ofrece una variedad de cualquier tipo ropa para mujeres, hombres y niños. Desarrollada  con Next.js, Tailwind.css, esta tienda virtual proporciona una experiencia de compra fluida y atractiva para los usuarios.",
 
       url1: "https://tienda-virtual-cb-shop.vercel.app/",
       url2: "https://github.com/jlcarvajal27/cb-shop",
@@ -22,21 +22,21 @@ export default function Project() {
     {
       title: "App Cinematografica",
       description:
-        "Disfruta de una experiencia cinematográfica  en nuestra página web creada con React y estilizada con Tailwind CSS. Descubra películas de todos los géneros, marque sus favoritas y cree su propia lista de reproducción. Navegue de manera intuitiva en una interfaz de usuario atractiva para una experiencia óptima.",
+        "App cinematográfica  creada con React y estilizada con Tailwind CSS. que ofrece películas de todos los géneros, marque sus favoritas y cree su propia lista de reproducción. Navegue de manera intuitiva en una interfaz de usuario atractiva para una experiencia óptima.",
       url1: "https://reactjs-portfolio-project.netlify.app/",
       url2: "https://github.com/jlcarvajal27/Movie-App",
     },
     {
       title: "Dashboard App",
       description:
-        "Dashboard-app es una intuitiva y atractiva app diseñada para los aficionados de Pokémon. Permite a los usuarios explorar una  base de datos, donde cada entrada ofrece detalles como la descripción, tipo, evolución y habilidades únicas. Los usuarios pueden fácilmente marcar su Pokémon favoritos y personalizar su lista de favoritos.",
+        "App diseñada con Next-js para los aficionados de Pokémon. Permite a los usuarios explorar una  base de datos, donde cada entrada ofrece detalles como la descripción, tipo, evolución y habilidades únicas. Los usuarios pueden  marcar su Pokémon favoritos y personalizar su lista.",
       url1: "https://dashboard-app-psi-lime.vercel.app/dashboard/pokemons",
       url2: "https://github.com/jlcarvajal27/dashboard-app",
     },
     {
       title: "Gym App",
       description:
-        "Gym Proyect es tu destino para alcanzar tus metas de fitness. Ofrecemos programas de entrenamiento personalizado, clases grupales emocionantes y recursos de nutrición. Únete a nuestra comunidad en línea para inspiración y motivación. ¡Comienza tu viaje hacia una vida más saludable hoy mismo!",
+        "App diseñada con React y Tailwind.css para ofrecer programas de entrenamiento personalizado, clases grupales emocionantes y recursos de nutrición. Únete a nuestra comunidad en línea para inspiración y motivación. ¡Comienza tu viaje hacia una vida más saludable!",
       url1: "https://gym-proyect-site.vercel.app/",
       url2: "https://github.com/jlcarvajal27/gym-proyect",
     },
