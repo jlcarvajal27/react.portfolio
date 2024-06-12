@@ -36,7 +36,7 @@ export default function Project() {
     {
       title: "Gym App",
       description:
-        "App diseñada con React y Tailwind.css para ofrecer programas de entrenamiento personalizado, clases grupales emocionantes y recursos de nutrición. Únete a nuestra comunidad en línea para inspiración y motivación. ¡Comienza tu viaje hacia una vida más saludable!",
+        "App diseñada con React y Tailwind.css para ofrecer programas de entrenamiento personalizado, clases grupales y recursos de nutrición. Únete a nuestra comunidad en línea para inspiración y motivación. ¡Comienza tu viaje hacia una vida más saludable!",
       url1: "https://gym-proyect-site.vercel.app/",
       url2: "https://github.com/jlcarvajal27/gym-proyect",
     },

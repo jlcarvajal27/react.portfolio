@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="flex top-14  h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative"
+      className="flex top-45 h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative"
     >
       <div>
         <img

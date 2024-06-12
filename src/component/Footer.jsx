@@ -2,7 +2,7 @@ import hr from "../assets/curve-hr.svg";
 
 export default function Footer() {
   return (
-    <div className="mt-4 bg-dark-200 rounded-md text-white px-8 py-5 ">
+    <div className="mt-4 bg-dark-200 rounded-md text-white px-8 py-5">
       <ul className="text-center">
         <li>
           <a href="#about" className="hover:underline">
