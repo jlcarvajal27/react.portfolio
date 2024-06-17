@@ -28,7 +28,7 @@ export default function Footer() {
       />
 
       <p className="text-sm font-light text-center">
-        Copyright © 2024 Jorge Luis Carvajal.
+        Copyright © 2024 Jorge Luis Carvajal M.
       </p>
     </div>
   );
