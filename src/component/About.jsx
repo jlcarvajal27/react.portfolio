@@ -31,7 +31,7 @@ export default function About() {
           <h1 className="text-xl text-gray-400">Hola, Yo soy</h1>
           <h1 className="text-2xl font-bold">Jorge Luis Carvajal</h1>
           <p className="text-xl font-bold italic text-gray-300">
-            Frontend Developer
+            Frontend Developer.
           </p>
           <p className="text-md font-light text-gray-400 italic">
             Soy una persona que se adapta rápidamente a nuevos retos y
