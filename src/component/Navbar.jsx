@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
     <div className="fixed z-50 bg-dark-100 w-full top-0 left-0 px-8 py-2 lg:px-20 xl:px-36">
       <div className="flex justify-between items-center text-white">
-        <img src={coding} className="App-logo w-10 rounded-full" alt="logo" />
-        <ul className="flex md:flex">
+        <img src={coding} className="App-logo w-12 rounded-full" alt="logo" />
+        <ul className="flex md:flex text-xl">
           <li className="p-4">
             <a href="#about" className="hover:underline">
               About
@@ -27,7 +27,7 @@ export default function Navbar() {
           href={resume}
           rel="noreferrer"
           target="_blank"
-          className=" bg-teal-500 rounded-full px-4 py-1  border-teal-800  border-4"
+          className=" bg-teal-500 rounded-full px-4 py-1  border-teal-800  border-4 text-xl"
         >
           Curriculun
         </a>
