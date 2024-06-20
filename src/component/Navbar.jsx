@@ -1,7 +1,5 @@
 import coding from "../assets/coding-html-svgrepo-com.svg";
 
-const resume = require("../assets/jorge-resume.pdf");
-
 export default function Navbar() {
   return (
     <div className="fixed z-50 bg-dark-100 w-full top-0 left-0 px-8 py-2 lg:px-20 xl:px-36">
@@ -25,7 +23,7 @@ export default function Navbar() {
           </li>
         </ul>
         <a
-          href={resume}
+          href="/public/jorge-resume.pdf"
           rel="noreferrer"
           target="_blank"
           className=" bg-teal-500 rounded-full px-4 py-1  border-teal-800  border-4 text-xl"
