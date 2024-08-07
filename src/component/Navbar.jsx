@@ -23,7 +23,7 @@ export default function Navbar() {
           </li>
         </ul>
         <a
-          href="/jorge-resume.pdf"
+          href="/newresume.pdf"
           rel="noreferrer"
           target="_blank"
           className=" bg-teal-500 rounded-full px-4 py-1  border-teal-800  border-4 text-xl"
