@@ -11,6 +11,13 @@ export default function Project() {
     //   url1: "https://quiet-meerkat-17d815.netlify.app/",
     //   url2: "https://github.com/jlcarvajal27/cart-shop",
     // },
+    // {
+    //   title: "Dashboard App",
+    //   description:
+    //     "App diseñada con Next-js para los aficionados de Pokémon. Permite a los usuarios explorar una  base de datos, donde cada entrada ofrece detalles como la descripción, tipo, evolución y habilidades únicas. Los usuarios pueden  marcar su Pokémon favoritos y personalizar su lista.",
+    //   url1: "https://dashboard-app-psi-lime.vercel.app/dashboard/pokemons",
+    //   url2: "https://github.com/jlcarvajal27/dashboard-app",
+    // },
     {
       title: "Tienda virtual",
       description:
@@ -20,18 +27,20 @@ export default function Project() {
       url2: "https://github.com/jlcarvajal27/cb-shop",
     },
     {
+      title: "Delivery Pizza",
+      description:
+        "Esta es una aplicación de escritorio diseñada para la gestionar los pagos y pedidos de una pizzeria en next14 añadiendo zuzstand para la gestion de los estados y ademas de eso integrando una pasarela de pago con stipe para ofrecer pagos en linea de manera segura.",
+
+      url1: "https://pizza-delivery-nine-jade.vercel.app/",
+      url2: "https://github.com/jlcarvajal27/pizza-delivery",
+    },
+
+    {
       title: "App Cinematografica",
       description:
         "App cinematográfica  creada con React y estilizada con Tailwind CSS. que ofrece películas de todos los géneros, marque sus favoritas y cree su propia lista de reproducción. Navegue de manera intuitiva en una interfaz de usuario atractiva para una experiencia óptima.",
       url1: "https://reactjs-portfolio-project.netlify.app/",
       url2: "https://github.com/jlcarvajal27/Movie-App",
-    },
-    {
-      title: "Dashboard App",
-      description:
-        "App diseñada con Next-js para los aficionados de Pokémon. Permite a los usuarios explorar una  base de datos, donde cada entrada ofrece detalles como la descripción, tipo, evolución y habilidades únicas. Los usuarios pueden  marcar su Pokémon favoritos y personalizar su lista.",
-      url1: "https://dashboard-app-psi-lime.vercel.app/dashboard/pokemons",
-      url2: "https://github.com/jlcarvajal27/dashboard-app",
     },
     {
       title: "Gym App",
