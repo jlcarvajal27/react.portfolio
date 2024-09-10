@@ -25,7 +25,7 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="/newresume.pdf"
+          href="/myresume.pdf"
           rel="noreferrer"
           target="_blank"
           className="bg-teal-500 rounded-full px-4 py-1 border-teal-800 border-4 text-sm md:text-xl mr-4 md:mr-0"
