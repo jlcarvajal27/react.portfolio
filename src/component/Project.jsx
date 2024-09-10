@@ -52,11 +52,11 @@ export default function Project() {
   ];
   return (
     <div id="project" className="mt-4 text-white">
-      <h1 className="text-2xl font-bold">Project</h1>
-      <p className="font-light text-gray-400">
+      <h1 className="text-2xl font-bold mb-4">Project</h1>
+      <p className="font-light text-gray-400 mb-4">
         Estos son algunos de mis proyectos
       </p>
-      <div className="  justify-center gap-2 grid grid-cols-1 md:grid-cols-4 ">
+      <div className="  justify-center gap-4 grid grid-cols-1 md:grid-cols-4 ">
         {Data.map((url, index) => (
           <ProjectCard
             key={index}

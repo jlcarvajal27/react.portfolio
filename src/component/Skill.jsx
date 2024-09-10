@@ -16,8 +16,8 @@ export default function Skills() {
 
   return (
     <div id="skills" className="mt-4 text-white">
-      <h1 className="text-2xl font-bold">Skills</h1>
-      <p className="font-light text-gray-400">
+      <h1 className="text-2xl font-bold mb-4">Skills</h1>
+      <p className="font-light text-gray-400 mb-4">
         Estas son algunas de mis habilidades.
       </p>
 
@@ -25,12 +25,13 @@ export default function Skills() {
         <Slider {...settings}>
           <SkillCard name="React" img={"skills/react.svg"} />
           <SkillCard name="Next" img={"skills/nextjs.svg"} />
-          <SkillCard name="JavaScript" img={"skills/javascript.svg"} />
           <SkillCard name="TypeScript" img={"skills/typescript.svg"} />
+          <SkillCard name="JavaScript" img={"skills/javascript.svg"} />
           <SkillCard name="Tailwind" img={"skills/tailwind.svg"} />
           <SkillCard name="Bootstrap" img={"skills/bootstrap.svg"} />
           <SkillCard name="Git" img={"skills/git.svg"} />
           <SkillCard name="Node" img={"skills/nodejs-svgrepo-com.svg"} />
+          <SkillCard name="Express" img={"skills/express-svg.svg"} />
           <SkillCard name="Css3" img={"skills/css3.svg"} />
           <SkillCard name="HTML5" img={"skills/html.svg"} />
         </Slider>

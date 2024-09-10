@@ -1,4 +1,5 @@
 import code from "../assets/code.png";
+import hr from "../assets/curve-hr.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -10,7 +11,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="flex top-45 h-screen flex-col md:flex-row gap-5 items-center justify-center text-white relative"
+      className="flex h-screen flex-col md:flex-row gap-12 items-center justify-center text-white relative"
     >
       <div>
         <img
@@ -19,6 +20,7 @@ export default function About() {
           data-aos-offset="200"
           src={code}
           alt="profile"
+          className="h-[160px] md:h-[300px]  object-cover"
         />
       </div>
       <div
@@ -72,7 +74,7 @@ export default function About() {
           </li>
         </ul>
       </div>
-      {/* <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" /> */}
+      <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" />
     </div>
   );
 }
