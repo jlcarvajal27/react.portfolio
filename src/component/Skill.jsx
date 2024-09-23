@@ -32,6 +32,7 @@ export default function Skills() {
           <SkillCard name="Git" img={"skills/git.svg"} />
           <SkillCard name="Node" img={"skills/nodejs-svgrepo-com.svg"} />
           <SkillCard name="Express" img={"skills/express-svg.svg"} />
+          <SkillCard name="Graphql" img={"skills/graphql.svg"} />
           <SkillCard name="Css3" img={"skills/css3.svg"} />
           <SkillCard name="HTML5" img={"skills/html.svg"} />
         </Slider>
