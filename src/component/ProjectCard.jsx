@@ -4,9 +4,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function ProjectCard(props) {
   const { title, url1, url2, description } = props;
   return (
-    <div className=" relative flex flex-col mt-3 text-white bg-dark-100 shadow-xs bg-clip-border rounded-xl w-100 overflow-auto">
+    <div className="relative flex flex-col mt-3 border border-teal-500 bg-dark-100 rounded-xl w-100">
       <div className="p-6">
-        <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+        <h5 className="block mb-2 font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-black-700">
           {title}
         </h5>
 
@@ -22,7 +22,7 @@ export default function ProjectCard(props) {
           target="_blank"
         >
           <button
-            className="flex items-center m-2 px-4 py-2 font-sans text-md font-bold text-white-700 rounded-lg bg-teal-500"
+            className="flex items-center px-4 py-2 m-2 font-sans font-bold bg-teal-500 rounded-lg text-md text-white-700"
             type="button"
           >
             View Project
